@@ -1,0 +1,33 @@
+/* Selectors contain declarations in curly braces. */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+    background-color: #FAF4D3;
+    color: #0C1618;
+}
+
+.intro-head {
+    line-height: 10%;
+    color: #FE5E41;;
+}
+
+.intro-box {
+    font-size: 200%;
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 50%;
+}
+
+.intro-container {
+    display: flex;
+}
+
+.intro-img {
+    margin-top: 5%;
+}
+
+.lower-body {
+    background-color: #F7EDB6;
+    margin-top: -20px;
+    padding-bottom: 10%;
+}
