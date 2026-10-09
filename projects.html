@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Projects | Brandon Keesee</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="nav-bar">
+		<h1><a href="index.html">Portfolio</a></h1>
+		<ul class="nav-links">
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="homelab.html">Homelab</a></li>
+			<li><a href="experience.html">Experience</a></li>
+		</ul>
+	</div>
+
+	<!-- Page Header -->
+    <div class="intro-container"></div>
+		<div class="page-header">
+			<h1 class="intro-head">Projects</h1>
+			<p class="page-tagline">Games, tools, and builds from school to my own.</p>
+		</div>
+		<div class="intro-img", style="padding-left: 380px";> <!-- Image Column-->
+			<img src="pelican.png", width="50%", alt="My homelab dashboard">
+		</div>
+	</div>
+
+	<!-- Page Content -->
+	<div class="lower-body">
+		<div class="lower-container">
+
+			<div class="page-section">
+				<h2 class="section-title">My Projects</h2>
+
+				<div class="info-card">
+					<h1 style="line-height: 10%;">Mining Game</h1>
+					<h3 class="subtitle">An 1890s mining town management sim</h3>
+					<p>A top-down pixel art city builder where you run an 1890s mining company. You hire and fire workers, build out your town, and keep everyone productive through a closed scrip economy. Happy miners cost more but keep operations running smoothly. Unhappy ones slow down, start fights, and can even kill each other. The goal is to balance costs and morale to build the most efficient mining colony you can. Under the hood, each miner runs on a state machine (working, resting, injured, committing crimes, fired) with happiness and crime risk calculated from weighted stat formulas. Hiring generates each miner's trust, efficiency, and resilience from a budget pool scaled by their wage. Pathfinding uses Godot's navigation system with RVO avoidance so miners move through the town without colliding.</p>
+					<!-- <a class="learn-more" href="#">Learn More</a> -->
+					<p></p>
+				</div>
+
+				<div class="info-card">
+					<h1 style="line-height: 10%;">Game Server Platform</h1>
+					<h3 class="subtitle">Self-hosted game server management</h3>
+					<p>A self-hosted game server platform running on my homelab, built on the Pelican panel. Each user gets a resource budget that I set, and they can spin up as many servers as they want as long as they stay within it. No more setting up every server by hand. New servers are automatically assigned a port so they can be joined from anywhere, and users can create databases that come preconfigured and ready to use out of the box. A self-hosted email system notifies users when their account is created, when a server is deployed, and when announcements go out. I also extended the panel with plugins for live player counts and server-wide announcements, and handle all deployment and resource management on my own hardware.</p>
+					<!-- <a class="learn-more" href="#">Learn More</a> -->
+					<p></p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="footer">
+		<a href="index.html">Back to Home</a>
+	</div>
+</body>
+</html>
